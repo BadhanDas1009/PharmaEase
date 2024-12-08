@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170367721485",
+    "project_id": "pharmaease-5d55c",
+    "storage_bucket": "pharmaease-5d55c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170367721485:android:0a50f16c9553a138d23544",
+        "android_client_info": {
+          "package_name": "com.example.pharmaease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARj9RQqqxeRrpXUH9x8veCxvTOPQq2xlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

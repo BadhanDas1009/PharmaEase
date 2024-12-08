@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+   android:background="@drawable/medicines"
+
+    android:padding="20dp">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PharmaEase"
+
+        android:textSize="30sp"
+        android:textColor="#AE0B0B"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up For A New Account"
+
+        android:textSize="20sp"
+        android:textColor="#0B2EAE"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Create Account"
+        android:textSize="20sp"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Full Name"
+        android:textColorHint="#0000FE"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/email_in_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:hint="Email"
+        android:textColorHint="#0000FE"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/password_in_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Password"
+        android:textColorHint="#0000FE"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/confirmpass_in_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:hint="Confirm Password"
+        android:textColorHint="#0000FE"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="20sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#B3EFFF"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Have An Account?"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textColor="#0000FF"
+        android:textStyle="bold" />
+
+</LinearLayout>

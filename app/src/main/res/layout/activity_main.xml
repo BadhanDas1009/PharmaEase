@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   android:background="@drawable/medicines"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To"
+        android:textSize="30sp"
+        android:textColor="#0E41D8"
+        android:textStyle="bold"
+       />
+    <TextView
+
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PharmaEase"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#B50E0E"/>
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="410dp"
+        android:layout_height="270dp"
+        android:src="@drawable/medicines1"/>
+
+    <TextView
+        android:paddingLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore Our Pharmacy"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#131111"/>
+
+    <Button
+
+        android:id="@+id/start_button"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Let's Get Started"
+        android:textSize="30dp"
+        android:backgroundTint="#1697D3"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
